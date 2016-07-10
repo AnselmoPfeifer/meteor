@@ -4,9 +4,6 @@
 |---|
 |  2 |
 
-| meteor create tasklist |  Cria uma aplicacao com nome de tasklist | 
-|---|
-| meteor create tasklist |  Cria uma aplicacao com nome de tasklist | 
 
     1 - meteor create tasklist //Cria uma aplicacao com nome de tasklist
     2 - meteor mongo //Conecta no bando de dados
