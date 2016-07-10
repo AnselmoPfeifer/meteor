@@ -1,15 +1,21 @@
+<!--
+    xs (phones),
+    sm (tablets),
+    md (desktops),
+-->
+
 <template name="lista" class="container">
     <div class="row">
-        <div class="col-xs12">
+        <div class="col-xs12 ">
             {{#each tarefas}}
             <div class="row">
-                <div class="col-xs-7">
+                <div class="col-xs-12 col-sm-7- col-md-7 ">
                     {{nome}}
                 </div>
-                <div class="col-xs-4">
+                <div class="col-xs-12 col-sm-4 col-md-4">
                     {{formataData}}
                 </div>
-                <div class="col-xs-1">
+                <div class="col-xs-12 col-sm-1 col-md-1">
                     <button class="btn btn-danger">Excluir</button>
                 </div>
             </div>
