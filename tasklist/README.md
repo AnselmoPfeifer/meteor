@@ -1,4 +1,4 @@
-#Lista de atividades em meteor
+#Lista de atividades em **meteor**
     1 - meteor create tasklist //Cria uma aplicacao com nome de tasklist
     2 - meteor mongo //Conecta no bando de dados
     3 - db.tarefas.insert({nome: "Estudar JavaScript"});
@@ -17,11 +17,14 @@
         //Adiciona a biblioteca momentjs
     10 - meteor remove autopublish
         //Remove o auto publish do meteor, garantindo a seguranca da App
-        
+    11 - meteor add accounts-base
+        //Adicionando plugins accounts-base
         
 LINKS
-- [atmospherejs](https://atmospherejs.com)
-- [momentjs](http://momentjs.com)
+
+| [**Atmospherejs**](https://atmospherejs.com) |
+|---|
+|  [**Momentjs**](http://momentjs.com)  |
     
 
         
