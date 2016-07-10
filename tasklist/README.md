@@ -5,13 +5,21 @@
         //Cadastrar atividades no banco na tabela (tarefas)
     4 - db.tarefas.insert({nome: "Estudar JavaScript", data : new Date()});
         //Adiciona mais um campo data na tabela Tarefas.
-    5 - meteor add mrt:bootstrap-3
+    5 - meteor list 
+        //Lista os plugins 
+    6 - meteor remove *plugin* 
+        //Remove o plugin citado  
+    7 meteor update
+        //Verifica por atualizações em todos os packages;         
+    8 - meteor add mrt:bootstrap-3
         //Adiciona o bootstrap ao projeto
-    6 - meteor add momentjs:moment
+    9 - meteor add momentjs:moment
         //Adiciona a biblioteca momentjs
         
         
 LINKS
-    http://momentjs.com
-    https://atmospherejs.com
+atmospherejs(https://atmospherejs.com)
+momentjs(http://momentjs.com)
+    
+
         
