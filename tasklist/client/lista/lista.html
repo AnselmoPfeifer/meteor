@@ -1,8 +1,21 @@
-<template name="lista">
-    <ui>
+<template name="lista" class="container">
+    <div class="row">
+        <div class="col-xs12">
+            {{#each tarefas}}
+            <div class="row">
+                <div class="col-xs-7">
+                    {{nome}}
+                </div>
+                <div class="col-xs-4">
+                    {{formataData}}
+                </div>
+                <div class="col-xs-1">
+                    <button class="btn btn-danger">Excluir</button>
+                </div>
+            </div>
+            <hr>
+            {{/each}}
+        </div>
+    </div>
 
-        {{#each tarefas}}
-        <li>{{nome}}</li>
-        {{/each}}
-    </ui>
 </template>
