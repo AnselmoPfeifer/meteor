@@ -6,7 +6,7 @@ Template.lista.helpers({
         return Tarefas.find({});
     },
     formataData : function(){
-        return moment(this.data).format('DD/MM/YYYY - HH:mm');
+        return moment(this.data).format('DD/MM/YYYY HH:mm');
     }
 });
 
