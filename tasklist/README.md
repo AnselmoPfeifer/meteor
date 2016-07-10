@@ -15,6 +15,8 @@
         //Adiciona o bootstrap ao projeto
     9 - meteor add momentjs:moment
         //Adiciona a biblioteca momentjs
+    10 - meteor remove autopublish
+        //Remove o auto publish do meteor, garantindo a seguranca da App
         
         
 LINKS
