@@ -1,1 +1,2 @@
-# meteor-curso-alura
+# Repositorio de estudo para cursos meteor
+
