@@ -1,26 +1,23 @@
 #Lista de atividades em **meteor**
 
-    1 - meteor create tasklist //Cria uma aplicacao com nome de tasklist
-    2 - meteor mongo //Conecta no bando de dados
-    3 - db.tarefas.insert({nome: "Estudar JavaScript"});
-        //Cadastrar atividades no banco na tabela (tarefas)
-    4 - db.tarefas.insert({nome: "Estudar JavaScript", data : new Date()});
-        //Adiciona mais um campo data na tabela Tarefas.
-    5 - meteor list 
-        //Lista os plugins 
-    6 - meteor remove *plugin* 
-        //Remove o plugin citado  
-    7 meteor update
-        //Verifica por atualizações em todos os packages;         
-    8 - meteor add mrt:bootstrap-3
-        //Adiciona o bootstrap ao projeto
-    9 - meteor add momentjs:moment
-        //Adiciona a biblioteca momentjs
-    10 - meteor remove autopublish
-        //Remove o auto publish do meteor, garantindo a seguranca da App
-    11 - meteor add accounts-base
-        //Adicionando plugins accounts-base
-        
+- COMANDOS USADOS NO CURSO
+
+- meteor create tasklist //Cria uma aplicacao com nome de tasklist
+- meteor mongo //Conecta no bando de dados
+- db.tarefas.insert({nome: "Estudar JavaScript"}); //Cadastrar atividades no banco na tabela (tarefas)
+- db.tarefas.insert({nome: "Estudar JavaScript", data : new Date()}); //Adiciona mais um campo data na tabela Tarefas.
+- meteor list //Lista os plugins 
+- meteor remove *plugin*  //Remove o plugin citado
+- meteor update //Verifica por atualizações em todos os packages;         
+- meteor add mrt:bootstrap-3 //Adiciona o bootstrap ao projeto
+- meteor add momentjs:moment //Biblioteca momentjs
+- meteor remove autopublish //Garantindo a seguranca da App
+- meteor add accounts-base //Adicionando plugins accounts-base
+- meteor add accounts-password
+- meteor add ian:accounts-ui-bootstrap-3
+- meteor deploy subdominio.meteor.com
+meteor deploy nomeUsado.meteor.com --delete
+
 [**LINKS**]()
 
 | [**Atmospherejs**](https://atmospherejs.com) |
