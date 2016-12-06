@@ -5,7 +5,7 @@
     - meteor npm install
     - meteor run
 
-    Adicionar tarefas no banco:
+    * Adicionar tarefas no banco:
     - db.Tarefas.insert({nome:"Estaudando Spring"});
 
     Removendo BootsTrap e adicionando Materialize
@@ -16,7 +16,7 @@
     - Add @import "{poetic:materialize-scss}/sass/materialize.scss"; > main.css
 
 
-    Adicionando pacotes para autenticação com facebook e GitHub
+    * Adicionando pacotes para autenticação com facebook e GitHub
     - meteor add accounts-base
     - meteor add acconts-password
     - meteor add ian:accounts-ui-bootstrap-3

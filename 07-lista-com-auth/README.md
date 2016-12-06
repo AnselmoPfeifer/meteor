@@ -6,7 +6,7 @@
     - meteor npm install
     - meteor run
 
-# adicionar tarefas no banco:
+    * Adicionar tarefas no banco:
     - db.Tarefas.insert({nome:"Estaudando Spring"});
 
     - meteor add mrt:bootstrap-3 // usado para melharar interface grafica com BootsTrap
@@ -14,7 +14,7 @@
     - meteor remove autopublish // remover o auto publisher
 
 
-# Adicionando pacotes para autenticação com facebook e GitHub
+    * Adicionando pacotes para autenticação com facebook e GitHub
     - meteor add accounts-base
     - meteor add acconts-password
     - meteor add ian:accounts-ui-bootstrap-3
