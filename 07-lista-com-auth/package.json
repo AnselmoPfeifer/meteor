@@ -1,11 +1,12 @@
 {
-  "name": "Listando e deletando Tarefas",
+  "name": "07-lista-com-auth",
   "private": true,
   "scripts": {
     "start": "meteor run"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0",
-    "babel-runtime": "6.18.0"
+    "babel-runtime": "^6.18.0",
+    "bcrypt": "^1.0.0",
+    "meteor-node-stubs": "~0.2.0"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "02 Lista Tarefa com JS",
+  "name": "02-lista-tarefa-com-JS",
   "private": true,
   "scripts": {
     "start": "meteor run"

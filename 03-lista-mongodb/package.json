@@ -1,5 +1,5 @@
 {
-  "name": "03 Lista Tarefa com MongoDb",
+  "name": "03-lista-mongodb",
   "private": true,
   "scripts": {
     "start": "meteor run"

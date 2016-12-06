@@ -1,5 +1,5 @@
 {
-  "name": "iniciando",
+  "name": "01-Iniciando",
   "private": true,
   "scripts": {
     "start": "meteor run"

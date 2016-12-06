@@ -1,5 +1,5 @@
 {
-  "name": "Lista Mongodb com Formulario",
+  "name": "04-lista-mongodb-com-formulario",
   "private": true,
   "scripts": {
     "start": "meteor run"

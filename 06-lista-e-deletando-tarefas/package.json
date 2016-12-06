@@ -1,5 +1,5 @@
 {
-  "name": "Listando e deletando Tarefas",
+  "name": "06-lista-e-deletando-tarefas",
   "private": true,
   "scripts": {
     "start": "meteor run"
