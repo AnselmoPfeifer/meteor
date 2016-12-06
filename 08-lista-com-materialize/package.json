@@ -1,5 +1,5 @@
 {
-  "name": "07-lista-com-auth",
+  "name": "08-lista-com-materialize",
   "private": true,
   "scripts": {
     "start": "meteor run"

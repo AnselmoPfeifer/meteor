@@ -2,46 +2,51 @@
   <title> - Criando metodo de Autenticacao - </title>
 </head>
 
-<body>
+<body >
+    <div class="row">
 
-  <header class="container">
-    <nav class="navbar navbar-default">
-      <div class="navbar-header">
-        <a href="#" class="navbar-brand">
-          Taskie
-        </a>
-      </div>
+        <div class="col s12 m12 l12">
+            <nav class="nav-wrapper topo teal lighten-3">
+                <a href="#" class="red-text text-lighten-5">
+                        LOGO
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down red-text text-lighten-5">
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Produtos</a></li>
+                </ul>
+            </nav>
 
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-            {{> loginButtons }}
-        </ul>
-      </div>
-    </nav>
-  </header>
+            <div class="col s12 m12 l4 lateral">
+                <div class="card">
+                    <div class="card-content white-text">
+                        <span class="card-title">Login</span>
+                        {{> loginButtons }}
+                    </div>
+                 </div>
+            </div>
 
-  <main class="container">
-    {{#if currentUser}}
+            <div class="col s12 m12 l8 centro">
+                {{#if currentUser}}
+                    {{> formulario}}
 
-          <div class="row">
-              <div class="col-12">
-                  <div class="col-xs-7">
-                      {{> formulario}}
-                  </div>
+                    {{> lista}}
+                {{else}}
+                    <div class="alertas z-depth-2">
+                            Você precisa se logar primeiro!
+                    </div>
+                {{/if}}
 
-                  <div class="col-xs-5">
-                      {{> lista}}
-                  </div>
-              </div>
-          </div>
 
-    {{else}}
-        <div class="alert-danger alertas">
-                Você precisa se logar primeiro
+            </div>
+
+            <div class="col s12 m12 l12 teal">
+                {{> rodate }}
+            </div>
+
         </div>
-    {{/if}}
 
-  </main>
+    </div>
 
 </body>
 

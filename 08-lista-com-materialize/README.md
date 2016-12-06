@@ -9,9 +9,12 @@
 # adicionar tarefas no banco:
     - db.Tarefas.insert({nome:"Estaudando Spring"});
 
-    - meteor add mrt:bootstrap-3 // usado para melharar interface grafica com BootsTrap
-    - meteor add momentjs:moment // usado para formatar a data
-    - meteor remove autopublish // remover o auto publisher
+# Removendo BootsTrap e adicionando Materialize
+    - meteor remove mrt:bootstrap-3
+    - meteor remove materialize:materialize
+    - meteor add fourseven:scss
+    - meteor add poetic:materialize-scss
+    - Add @import "{poetic:materialize-scss}/sass/materialize.scss"; > main.css
 
 
 # Adicionando pacotes para autenticação com facebook e GitHub
