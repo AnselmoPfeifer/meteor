@@ -18,7 +18,7 @@
 
     * Adicionando pacotes para autenticação com facebook e GitHub
     - meteor add accounts-base
-    - meteor add acconts-password
+    - meteor add accounts-password
     - meteor add ian:accounts-ui-bootstrap-3
     - meteor npm install --save bcrypt
     - meteor npm install --save babel-runtime
