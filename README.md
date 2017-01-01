@@ -1,7 +1,7 @@
 # Repositorio de estudo para cursos meteor
 
 * Comandos mongo:
-  - Delete database: mongo DATABASE_NAME --eval "db.dropDatabase();"
+  * Delete database: mongo DATABASE_NAME --eval "db.dropDatabase();"
     - use<dadabaseName>; //Cria se nao existir
     - db.dropDatabase();
     
