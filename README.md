@@ -2,7 +2,7 @@
 
 * Comandos mongo:
   * Delete database: mongo DATABASE_NAME --eval "db.dropDatabase();"
-    - use<dadabaseName>; //Cria se nao existir
+    - use dadabaseName; //Cria se nao existir
     - db.dropDatabase();
     
 - Iniciando um projeto com meteor, criando uma lista com HTML simples.
